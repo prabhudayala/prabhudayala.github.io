@@ -1,17 +1,7 @@
 
-<!--<html>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-
-
-	<style type="text/css">
-	</style>-->
-
 
 <link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/style1.css">
 
 <!DOCTYPE html>
 <html>
@@ -23,101 +13,115 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <style>
 * {
 	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #87cefa;
+	font-family: 'Titillium Web', Calibri, sans-serif;
 }
 </style>
 </head>
 <body class="main1" style="overflow: auto">
 	<div style="overflow: auto" ng-app="myprofile" ; ng-controller="myCtrl">
 		<div class="container-fluid">
-
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-5">
-					<h1 class="text-center"
-						style="font-size: 200%; color: white; font-family: monospace; font-weight: 500; margin-bottom: 0%;">Hello
-						World!</h1>
-					<h4 class="text-center"
-						style="font-size: 100%; color: blanchedalmond; font-family: monospace;">
-						I am prabhudayal Acharya<br> and I believe
-					</h4>
-					<h4
-						style="font-size: 50%; color: blanchedalmond; font-family: monospace;">
-						<div class="row text-center">
-							<blockquote class="blockquote-reverse">
-								It's never too late to start anything.
-								<footer> -my mind </footer>
-							</blockquote>
-						</div>
-
-					</h4>
-				</div>
-				<div class="col-md-5">
-					<div class="row">
-						<h4 id="contactRight" class="text-right">gmail :
-							prabhudayala@gmail.com</h4>
-					</div>
-					<div class="row">
-						<h4 id="contactRight" class="text-right">github :
-							/prabhudayala</h4>
-					</div>
-					<div class="row">
-						<h4 id="contactRight" class="text-right">facebook :
-							/prabhudayala</h4>
-					</div>
-					<div class="row">
-
-
-						<a id="contactRight" style="display: block;" class="text-right"
-							href="https://in.linkedin.com/in/prabhudayal-acharya-1a2b97a2">LinkedIn
-							: /prabhudayal-acharya-1a2b97a2</a>
-					</div>
-					<div class="row">
-						<h4 id="contactRight" class="text-right">gmail :
-							prabhudayala@gmail.com</h4>
-					</div>
-
-
-
-				</div>
-			</div>
-			<div class="row" ng-show="row2">
-				<div class="col-md-1"></div>
-				<div class="col-md-2">
-					<img src=".\images\profile.jpg"
-						class="img-rounded acenter-block myOwnPic img-responsive img-fluid">
-				</div>
-				<div class="col-md-9 text-center">
-					<br> <br>
-					<h4
-						style="font-size: 100%; color: blanchedalmond; font-family: monospace;">
-
-						<div class="row">
-
-							<button type="button"
-								class="btn3 btn btn-success btn-circle btn-xl"
-								ng-click="hideSecondRow()">Resume</button>
-
-							<button type="button" class="btn btn-danger btn-circle btn-xl">Experience</button>
-
-							<button type="button" class="btn btn-success btn-circle btn-xl">Skills</button>
-
-							<button type="button" class="btn btn-danger btn-circle btn-xl">Contact
-								Me</button>
-
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							
+								<a class="navbar-brand" href="index.html"><img style="padding-top:10 px;"class="img-responsive2 img-circle"
+									src="images/profile1.jpg"></a>
+							
 
 						</div>
 
-					</h4>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse"
+							id="bs-example-navbar-collapse-1">
 
-				</div>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">WhatEver</a></li>
+
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Contact Me</a></li>
+
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">whateverr</a></li>
+
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Resume</a></li>
+
+							</ul>
+
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+				<!-- <br>
+				<br> -->
 			</div>
-			
+
+			<br> <br> <br> <br>
+			<div class="row" style="border-bottom: 2px solid #AAAAAA;">
+
+				<div class="col-md-12 text-center">
+					<h1 class=""
+						style="font-size: 400%; color: white; font-family: monospace; font-weight: 500; margin-bottom: 0%;">"Hello
+						World!"</h1>
+					<h4 class=""
+						style="font-size: 200%; color: blanchedalmond; font-family: monospace;">
+						I am Prabhudayal Acharya</h4>
+					<h4 style="color: blanchedalmond; font-family: monospace;">
+
+						<blockquote class="" style="font-size: 200%;">
+							It's never too late to start anything.
+							<footer> my mind </footer>
+						</blockquote>
+
+
+					</h4>
+				</div>
+
+				
+			</div>
+
 		</div>
 
+
+
 	</div>
+
+	</div>
+
+
+
 
 
 
