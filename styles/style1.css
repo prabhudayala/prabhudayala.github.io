@@ -3,8 +3,8 @@
 	;
 
 .navbar-default {
-	background-color: #000000; /*Change with transparent*/
-	border-color: #0040ff; /*Change with transparent*/
+	background-color: transparent; /*Change with transparent*/
+	border-color: transparent; /*Change with transparent*/
 }
 
 .navbar-default .navbar-brand {
