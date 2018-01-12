@@ -30,7 +30,7 @@
 }
 
 .navbar-default .navbar-nav>li>.dropdown-menu {
-	background-color: #000000; /*Change with transparent*/
+	background-color: transparent; /*Change with transparent*/
 }
 
 .navbar-default .navbar-nav>li>.dropdown-menu>li>a {
@@ -44,7 +44,7 @@
 }
 
 .navbar-default .navbar-nav>li>.dropdown-menu>li>.divider {
-	background-color: #000000; /*Change with transparent*/
+	background-color:transparent; /*Change with transparent*/
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,
@@ -60,7 +60,7 @@
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #0040ff; /*Change with transparent*/
+	border-color:transparent;  /*Change with transparent*/
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
