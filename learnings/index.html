@@ -11,26 +11,28 @@
     Python graph
     <p>https://prabhudayala.github.io/learnings/python/graph_implementation.py</p>
   </h1>
-  
-  for features around 1000 pinv(x'*x)*x'*y will give theta
-  for around 10000 use of linear descent algo is good.
-  
-  linear regression pinv(x'*x)*x'*y
   <br>
+  <h1>linear regression</h1>
+  for features around 1000 pinv(x'*x)*x'*y will give theta
+  <br>
+  for around 10000 use of linear descent algo is good.
+  <br>
+  linear regression pinv(x'*x)*x'*y
+  <br><h1>logistic regration</h1><br>
   
   grad = x * (y- sigmoid(theta'*x))';
-  
+  <br>
   sigmoid
-  
+  <br>
   g = 1 ./ (1 + e.^-z);
 
   <br>
   <br>
   
   i believe i need this 
-  
+  <br>
   h = sigmoid(X*theta);<br>
-% J = (1/m)*sum(-y .* log(h) - (1 - y) .* log(1-h));
+% J = (1/m)*sum(-y .* log(h) - (1 - y) .* log(1-h));<br>
 J = (1/m)*(-y'* log(h) - (1 - y)'* log(1-h));<br>
 grad = (1/m)*X'*(h - y)<br>
   
