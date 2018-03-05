@@ -36,5 +36,26 @@
 J = (1/m)*(-y'* log(h) - (1 - y)'* log(1-h));<br>
 grad = (1/m)*X'*(h - y)<br>
   
+  
+  <b>np.linspace(0, 4, 9) # return 9 evenly spaced values from 0 to 4</b>
+  <b>n = np.arange(0, 30, 2) # start at 0 count up by 2, stop before 30</b>
+  <b>
+  HwyMpgByClass = []
+
+for t in vehicleclass: # iterate over all the vehicle classes
+    summpg = 0
+    vclasscount = 0
+    for d in mpg: # iterate over all dictionaries
+        if d['class'] == t: # if the cylinder amount type matches,
+            summpg += float(d['hwy']) # add the hwy mpg
+            vclasscount += 1 # increment the count
+    HwyMpgByClass.append((t, summpg / vclasscount)) # append the tuple ('class', 'avg mpg')
+
+HwyMpgByClass.sort(key=lambda x: x[1])
+HwyMpgByClass
+  </b>
+  <b></b>
+  <b></b>
+  
 </body>
 </html>
