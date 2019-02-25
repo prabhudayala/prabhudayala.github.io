@@ -1,2 +1,20 @@
 <h2>resample base on day/month/year from dataframe column if its a date column.</h2>
 <h3>ax=train_df.resample('m', on='date')['rating'].count().plot()</h3>
+<br>
+<h2>seaborn count plot</h2>
+<h3>sns.countplot(train_df.rating)</h3>
+<h2>pdf and cdf using seaborv</h2>
+<h3>
+  fig=plt.figure(figsize=plt.figaspect(.5))
+ax1=plt.subplot(121)
+sns.kdeplot(no_of_rated_movies_per_user,ax=ax1)
+plt.title("PDF")
+
+ax2=plt.subplot(122)
+sns.kdeplot(no_of_rated_movies_per_user,ax=ax2,cumulative=True)
+plt.title("CDF")
+
+plt.show()
+
+</h3>
+
