@@ -3,30 +3,29 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Prabhudayal Acharya
+title: Senior Software Engineer
+email: prabhudayala@gmail.com
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: prabhudayala
+github_username:  prabhudayala
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
+instagram_username: prabhudayala
+linkedin_username: prabhudayala
 # pinterest_username: jekyll
-youtube_username: globalmtb
+youtube_username: prabhudayala
 # googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Prabhudayal Acharya and I'm a Senior Software Engineer at Mindtree. I have 4.5 years of experience.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Machine Learning</mark> and <mark>Python</mark>. I have moderate experience in <mark>Deep Learning</mark> too.
 
 # Projects Section
 # projects_title: Projects
@@ -40,11 +39,10 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
+  Alongside my interests in Artificial Intelligence and Machine Learning my interests and hobbies are:
+   - Cycling
    - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+   - Indian Mythology
 
 # Footer
 footer_show_references: true
@@ -58,3 +56,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+darkmode: true/false
